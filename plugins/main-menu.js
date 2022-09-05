@@ -21,8 +21,8 @@ const defaultMenu = {
 │
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
-├ Github:
-├ 
+├ Github: https://github.com/SanoXwan/XwanSano
+├ Grup bot: https://chat.whatsapp.com/Bh4Gk4ipq2pD3c3BJKyyk7
 │
 ├ Note :
 ├ *Ⓟ* = Premium
