@@ -7,31 +7,31 @@ let jimp = require('jimp')
 let PhoneNumber = require('awesome-phonenumber')
 const defaultMenu = {
   before: `
-┌─〔 %me 〕
-├ *${ucapan()} %name*
-│
-├ Tersisa *%limit Limit*
-├ Role *%role*
-├ Level *%level (%exp / %maxexp)* [%xp4levelup]
-├ %totalexp XP secara Total
-│
-├ Tanggal: *%week %weton, %date*
-├ Tanggal Islam: *%dateIslamic*
-├ Waktu: *%time*
-│
-├ Uptime: *%uptime (%muptime)*
-├ Database: %rtotalreg dari %totalreg
-├ Github: https://github.com/SanoXwan/XwanSano
-├ Grup bot: https://chat.whatsapp.com/Bh4Gk4ipq2pD3c3BJKyyk7
-│
-├ Note :
-├ *Ⓟ* = Premium
-├ *Ⓛ* = Limit
-└────
+╔════⧫〔 %me 〕
+║ *${ucapan()} %name*
+║
+║ Tersisa *%limit Limit*
+║ Role *%role*
+║ Level *%level (%exp / %maxexp)* [%xp4levelup]
+║ %totalexp XP secara Total
+║
+║ Tanggal: *%week %weton, %date*
+║ Tanggal Islam: *%dateIslamic*
+║ Waktu: *%time*
+║
+║ Uptime: *%uptime (%muptime)*
+║ Database: %rtotalreg dari %totalreg
+║ Github:
+║ 
+║
+║ Note :
+║ *Ⓟ* = Premium
+║ *Ⓛ* = Limit
+╚════⧫
 %readmore`.trim(),
-  header: '┌─〔 %category 〕',
-  body: '├ %cmd %islimit %isPremium',
-  footer: '└────\n',
+  header: '╔════⧫〔 %category 〕',
+  body: '║ %cmd %islimit %isPremium',
+  footer: '╚════⧫\n',
   after: `
 *%npmname@^%version*
 ${'```%npmdesc```'}
