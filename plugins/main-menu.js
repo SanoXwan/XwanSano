@@ -22,7 +22,7 @@ const defaultMenu = {
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
 ├ Github:
-├ %github
+├ 
 │
 ├ Note :
 ├ *Ⓟ* = Premium
@@ -267,29 +267,29 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     ]
     const listMessage = {
       text: `
-❏ *U S E R   I N F O*
-• Nama    : *${name}*
-• Limit   : *${limit}*
-• Status  : *${global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) ? 'Owner 🗿' : 'Users ⚔️'}*
-• Premium : *${premium ? `${conn.msToDate(premiumTime - new Date() * 1)}` : 'Gratisan'}*
+⫹⫺ *U S E R   I N F O*
+𖤓 Nama    : *${name}*
+𖤓 Limit   : *${limit}*
+𖤓 Status  : *${global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) ? 'Owner 🗿' : 'Users ⚔️'}*
+𖤓 Premium : *${premium ? `${conn.msToDate(premiumTime - new Date() * 1)}` : 'Gratisan'}*
 
-❏ *S T A T U S   I N F O*
-• Total User : *${rtotalreg} dari ${totalreg}*
-• Tersisa    : *${limit} Limit*
-• Role       : *${role}*
-• Level      : *${level}*
+⫹⫺ *S T A T U S   I N F O*
+𖤓 Total Rakyat : *${rtotalreg} dari ${totalreg}*
+𖤓 Tersisa    : *${limit} Limit*
+𖤓 Role       : *${role}*
+𖤓 Level      : *${level}*
 
-❏ 𝙏𝙄𝙈𝙀
+⫹⫺ 𝙏𝙄𝙈𝙀
 » Wib : *${time}*
 » Tanggal : *${week} ${weton} ${date}*
 
-❏ 𝙏𝘼𝙃𝙐𝙉 𝘽𝘼𝙍𝙐
+⫹⫺ 𝙏𝘼𝙃𝙐𝙉 𝘽𝘼𝙍𝙐
 _*${jhari} Hari ${jjam} Jam ${mmmenit} Menit ${ddetik} Detik*_
 
-❏ 𝙍𝘼𝙈𝘼𝘿𝘼𝙉
+⫹⫺ 𝙍𝘼𝙈𝘼𝘿𝘼𝙉
 _*${harii} Hari ${jamm} Jam ${menitt} Menit ${detikk} Detik*_
 
-❏ 𝙐𝙇𝘼𝙉𝙂 𝙏𝘼𝙃𝙐𝙉 𝙊𝙒𝙉𝙀𝙍
+⫹⫺ 𝙐𝙇𝘼𝙉𝙂 𝙏𝘼𝙃𝙐𝙉 𝙊𝙒𝙉𝙀𝙍
 _*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*_
 
 ${pe}Note: Jika ada Fitur yg Error Lapor ke owner${pe}`,
