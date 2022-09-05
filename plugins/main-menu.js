@@ -300,7 +300,9 @@ ${pe}Note: Jika ada Fitur yg Error Lapor ke owner${pe}`,
       sections
     }
     return conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(judul), contextInfo: { forwardingScore: 99999, isForwarded: true }})
-    
+    conn.sendFile(m.chat, 'https://bit.ly/3AtM34K', 'haori.mp3', null, m, true, {
+type: 'audioMessage', 
+
     }
 
     let groups = {}
