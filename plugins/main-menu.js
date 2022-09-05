@@ -21,8 +21,9 @@ const defaultMenu = {
 ║
 ║ Uptime: *%uptime (%muptime)*
 ║ Database: %rtotalreg dari %totalreg
-║ Github:
 ║ 
+║ Note 
+║ Gunakan Bot Dengan Baik
 ║
 ║ Note :
 ║ *Ⓟ* = Premium
@@ -385,16 +386,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "Selamat dinihari"
   if (time >= 4) {
-    res = "Selamat pagi"
+    res = "Selamat Pagi Sappo"
   }
   if (time > 10) {
-    res = "Selamat siang"
+    res = "Selamat Siang Sappo"
   }
   if (time >= 15) {
-    res = "Selamat sore"
+    res = "Selamat Sore Sappo"
   }
   if (time >= 18) {
-    res = "Selamat malam"
+    res = "Selamat Malam Sappo"
   }
   return res
 }
