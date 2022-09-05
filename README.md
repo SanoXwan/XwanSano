@@ -1,4 +1,4 @@
-# Raxcel-bot MD
+# XwanSano-MD
 
 ---
 
@@ -13,13 +13,13 @@
 <a href="https://github.com/sadteams/bot-md/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/sadteams/bot-md?label=PullRequest&color=red&style=flat-square"></a>
 
 ## Join Group Diskusi
-[![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Fm6gRtvuCDN9abXVlfekAK) 
+[![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Bh4Gk4ipq2pD3c3BJKyyk7)
 **NO BOT**
 
 
 ## UNTUK PENGGUNA HEROKU
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sadteams/bot-md)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SanoXwan/XwanSano)
 
 ### Instal Buildpack
 * heroku/nodejs
@@ -199,3 +199,5 @@ conn.logger.level = 'debug'
 [![bot xtrehse](https://github.com/xtreshebot.png?size=100)](https://github.com/xtreshebot)
 [![Madexyz](https://github.com/Madexyz.png?size=100)](https://github.com/Madexyz)
 [![sadteams](https://github.com/sadteams.png?size=100)](https://github.com/sadteams)
+
+babi
